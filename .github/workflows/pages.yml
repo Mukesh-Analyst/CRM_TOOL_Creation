@@ -30,7 +30,6 @@ jobs:
       - name: Build static export
         run: |
           npm run build
-          npm run export
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
